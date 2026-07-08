@@ -80,8 +80,8 @@ ${message}
             <ContactItem
               icon={Mail}
               label="Email"
-              value="kinoverce@gmail.com"
-              href="mailto:kinoverce@gmail.com"
+              value="smartweb721@gmail.com"
+              href="mailto:smartweb721@gmail.com"
             />
 
             <ContactItem
