@@ -2,20 +2,20 @@ import { SectionHeader } from "./Services";
 import { Star } from "lucide-react";
 
 const REVIEWS = [
-  { name: "Aisha Karimova", role: "CEO, Bloom Retail", text: "SmartWeb AI rebuilt our store and integrated a chatbot — sales jumped 40% in two months. Easy to work with and crazy fast." },
-  { name: "Daniel Park", role: "Founder, NovaLogix", text: "Our custom CRM works exactly the way our team thinks. They listened, shipped, and kept improving. Worth every dollar." },
-  { name: "Marina Toschi", role: "CMO, FreshHive", text: "The Telegram bot they built handles 80% of orders automatically. Game changer for our operations." },
-  { name: "Omar Yusupov", role: "CTO, FinPath", text: "World-class engineering. Code is clean, infrastructure is rock solid, and they pushed back where it mattered. Highly recommend." },
-  { name: "Lena Voss", role: "Director, EduSpark", text: "Beautiful website, ranks #1 on Google for our main keywords now. SEO results showed up within weeks." },
-  { name: "Jasper Cole", role: "Owner, AtlasFit", text: "Mobile app feels premium and our members love it. Support after launch has been outstanding." },
+  { name: "Aisha Karimova", role: "Bosh direktor, Bloom Retaill", text: "SmartWeb AI do‘konimizni qayta ishlab chiqdi va unga chatbotni integratsiya qildi — ikki oy ichida savdo hajmi 40 foizga oshdi. Ular bilan ishlash juda qulay va ishni nihoyatda tez bajarishadi." },
+  { name: "Daniel Park", role: "NovaLogix asoschisi", text: "Bizning maxsus CRM tizimimiz jamoamiz o'ylaganidek ishlaydi. Ular tinglashdi, yetkazib berishdi va takomillashtirishda davom etishdi. Har bir dollarga arziydi." },
+  { name: "Marina Toschi", role: "Marketing bo‘yicha bosh direktor (CMO), FreshHive", text: "Ular yaratgan Telegram boti buyurtmalarning 80 foizini avtomatik tarzda qayta ishlaydi. Bu faoliyatimizda tub o‘zgarish yasadi." },
+  { name: "Umar Yusupov", role: "CTO, FinPath", text: "Yuqori darajadagi muhandislik. Kod toza, infratuzilma juda mustahkam va ular muhim masalalarda o‘z pozitsiyalarini qat’iy himoya qilishdi. Barchaga tavsiya qilaman." },
+  { name: "Lena Voss", role: "Director, EduSpark", text: "Ajoyib veb-sayt, hozirda asosiy kalit so'zlarimiz bo'yicha Google'da 1-o'rinda turadi. SEO natijalari bir necha hafta ichida paydo bo'ldi." },
+  { name: "Ravshan Jamolov", role: "Owner, AtlasFit", text: "Mobil ilova yuqori sifatlidek tuyuladi va a'zolarimiz uni yaxshi ko'rishadi. Ishga tushirilgandan keyin qo'llab-quvvatlash ajoyib bo'ldi." },
 ];
 
 export function Testimonials() {
   return (
     <section className="py-24">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
-        <SectionHeader eyebrow="Testimonials" title={<>Loved by <span className="text-gradient">teams worldwide</span></>}
-          subtitle="What our clients say after working with us." />
+        <SectionHeader eyebrow="Testimonials" title={<>Dunyo bo'ylab  <span className="text-gradient">jamoalar tomonidan seviladi</span></>}
+          subtitle="Mijozlarimiz biz bilan ishlagandan so'ng nima deydilar?" />
         <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {REVIEWS.map((r) => (
             <div key={r.name} className="glass rounded-2xl p-6 card-hover">
